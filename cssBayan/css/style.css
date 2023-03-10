@@ -12,7 +12,27 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
     font-family: "Dreamer";
     font-size: 10px;
     overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.bayan__title {
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(255, 241, 241);
 }
