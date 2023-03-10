@@ -31,21 +31,26 @@ body {
 }
 
 .bayan__title {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.6em;
+    font-size: 3.6em;
     text-align: center;
     padding-top: 50px;
     color: rgb(255, 241, 241);
     animation-name: titleAnimation;
-    animation-duration: 8s;
+    animation-duration: 2s;
+    opacity: 1;
 }
 
 @keyframes titleAnimation {
-    0%     {left: 0}
-    12.5%  {left: 12.5%}
-    25%    {left: 25%}
-    37.5%  {left: 37.5%}
-    50%    {left: 50%}
+    0%     {opacity: 0}
+    12.5%  {opacity: .1}
+    25%    {opacity: .25}
+    37.5%  {opacity: .38}
+    50%    {opacity: .50}
+    62.5%  {opacity: .62}
+    75%    {opacity: .75}
+    87%    {opacity: .87}
+    97%    {opacity: .97}
+    100%   {opacity: 1}
 }
+
+
