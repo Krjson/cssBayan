@@ -53,4 +53,50 @@ body {
     100%   {opacity: 1}
 }
 
+.bayan__list {
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+    cursor: pointer;
+}
 
+.bayan__list li {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 10px;
+    box-shadow:  -8px 0 0 0 black,
+                8px 0 0 0 black,
+                0 -8px 0 0 black,
+                0 8px 0 0 black;
+}
+
+.bayan__list li label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 1.8em;
+    color: rgb(224, 59, 136);
+}
+
+.inp:checked + label img{
+    transform: rotate(90deg);
+}
+
+.inp {
+    display: none;
+}
+
+.content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .8s;
+}
+
+.inp:checked ~ .content {
+    max-height: 30vh;
+}
