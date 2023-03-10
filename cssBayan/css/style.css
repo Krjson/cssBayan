@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Dreamer";
+    src: url("../fonts/dreamer/FFFDreamer.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Dreamer";
+    font-size: 10px;
+    overflow-x: hidden;
+}
