@@ -98,5 +98,16 @@ body {
 }
 
 .inp:checked ~ .content {
-    max-height: 30vh;
+    max-height: 100vh;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 0;
+}
+
+.inp:checked ~ .content img {
+    max-width: 300px;
+    transition: all .8s;
 }
